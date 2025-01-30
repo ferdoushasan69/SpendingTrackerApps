@@ -14,7 +14,7 @@ Online Image Search to add images by searching the web.
 </p>
  <p align="center">
   <img src="https://github.com/ZannatEvan/SpendingTrackerApps/blob/2712c9c3636ce28b191f97a1c69717055f475749/Screenshot_20250130_080235.png" alt="Screenshot 3" width="30%">
-  <img src="https://github.com/ZannatEvan/SpendingTrackerApps/blob/bc96179093d7a3925c3cc1bedae9142feb172719/new.png" alt="Screenshot 3" width="30%">
+  <img src="https://github.com/ZannatEvan/SpendingTrackerApps/blob/a5420a6aba6f9634a37c231a78e48eb91f03eaee/Screenshot_20250130_160259.png" alt="Screenshot 3" width="30%">
    
  </p>
 
