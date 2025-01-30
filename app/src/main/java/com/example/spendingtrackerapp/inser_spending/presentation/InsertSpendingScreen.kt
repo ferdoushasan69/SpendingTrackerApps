@@ -33,6 +33,8 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarColors
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
@@ -40,6 +42,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.SemanticsProperties.TestTag
@@ -99,7 +102,8 @@ fun InsertSpendingInnerScreen(
                         color = MaterialTheme.colorScheme.primary,
                     )
                 },
-                modifier = Modifier.padding(start = 12.dp, end = 16.dp),
+                modifier = Modifier.padding(horizontal = 10.dp),
+
                 actions = {
                     Box(
                         modifier = Modifier
@@ -124,6 +128,10 @@ fun InsertSpendingInnerScreen(
                         Icon(imageVector = Icons.Default.Done, contentDescription = null)
                     }
                 },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = Color.Transparent,
+                    scrolledContainerColor = Color.Transparent,
+                ),
             )
         }
 

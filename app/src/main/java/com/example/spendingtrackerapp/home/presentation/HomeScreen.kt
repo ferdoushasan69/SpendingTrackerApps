@@ -253,7 +253,7 @@ fun SpendingItem(
                 AsyncImage(
                     model = spending.imageUrl,
                     contentDescription = null,
-                    modifier = Modifier.weight(1f).clip(RoundedCornerShape(10.dp)).padding(10.dp),
+                    modifier = Modifier.size(100.dp).padding(10.dp).clip(shape = RoundedCornerShape(20.dp)),
                     placeholder = painterResource(id = R.drawable.bg)
                 )
 

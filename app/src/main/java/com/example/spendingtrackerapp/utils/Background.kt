@@ -12,13 +12,17 @@ import androidx.compose.ui.graphics.Brush
 fun BackGround(
 
 ) {
-   Box(modifier = Modifier.fillMaxSize()
-       .background(color = MaterialTheme.colorScheme.background)
-       .background(brush = Brush.verticalGradient(
-           listOf(
-               MaterialTheme.colorScheme.inverseOnSurface.copy(.5f),
-               MaterialTheme.colorScheme.onSecondaryContainer
-           )
-       ))
-   )
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(MaterialTheme.colorScheme.background)
+            .background(
+                brush = Brush.verticalGradient(
+                    listOf(
+                        MaterialTheme.colorScheme.inversePrimary.copy(0.3f),
+                        MaterialTheme.colorScheme.background
+                    )
+                )
+            )
+    )
 }
